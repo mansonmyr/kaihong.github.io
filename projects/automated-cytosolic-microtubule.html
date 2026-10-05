@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Automated Cytosolic Microtubule Detection — Ooi Kai Hong project page.">
+<title>Automated Cytosolic Microtubule Detection — Ooi Kai Hong</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="site-shell">
+<header class="topbar" id="top">
+<a class="brand interactive" href="../index.html#top"><span class="brand-mark">OKH</span><span class="brand-name">Ooi Kai Hong</span></a>
+<nav class="nav"><a href="../index.html#about">About</a><a href="../index.html#experience">Experience</a><a href="../index.html#projects">Projects</a><a href="../index.html#research">Research</a><a href="../index.html#learning">Learning</a><a href="../index.html#contact">Contact</a></nav>
+<a class="topbar-cta interactive" href="https://www.linkedin.com/in/mk-990801" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+</header>
+<main class="project-page">
+<section class="detail-hero"><a class="back-link interactive" href="../index.html#projects">← Back to projects</a><div class="detail-kicker">Biomedical computer vision prototype · 2026</div><h1>Automated Cytosolic Microtubule Detection</h1><p class="detail-lede">A prototype deep-learning workflow for automated detection of cytosolic microtubule structures from fluorescence microscopy images, created to reduce repetitive manual quantification.</p><div class="detail-actions"><a class="btn btn-primary interactive" href="https://github.com/mansonmyr/Automated-cytosolic-microtubule-using-object-detection-ML" target="_blank" rel="noreferrer">GitHub ↗</a></div></section>
+<section class="detail-grid">
+<article class="detail-card"><h2>The problem</h2><p>Manual identification of cytosolic microtubule structures is time-consuming and can introduce user bias. The project explores whether object detection can help automate this microscopy workflow.</p></article>
+<article class="detail-card"><h2>My contribution</h2><p>I assembled the workflow around microscopy data, created bounding-box annotations in LabelMe, prepared the dataset for object-detection training, ran training experiments, exported the trained model and created an interactive inference demonstration. Development was AI-assisted.</p></article>
+</section>
+<section class="flow-box"><div class="code-label">workflow()</div><div class="flow-row"><span>Fluorescence microscopy images</span><i>→</i><span>LabelMe bounding boxes</span><i>→</i><span>Dataset conversion</span><i>→</i><span>Object-detection training</span><i>→</i><span>Model export</span><i>→</i><span>Interactive inference</span></div></section>
+<section class="detail-grid">
+<article class="detail-card"><h2>What the prototype supports</h2><ul><li>Microscopy image preparation</li><li>Manual bounding-box annotation</li><li>Object-detection dataset preparation</li><li>YOLOv10-based model training in the project</li><li>TorchScript model export in the project</li><li>Gradio-based inference demonstration</li></ul></article>
+<article class="detail-card"><h2>Implementation note</h2><p>The README documents a Python / PyTorch / Ultralytics training workflow and a Gradio demonstration. These are documented project technologies, not a blanket claim that I independently engineer in every framework.</p><div class="note-box">AI-assisted development is disclosed openly. The scientific problem definition, workflow design and research context are the parts of the project I personally own; implementation depth continues to develop alongside my Master of Artificial Intelligence.</div></article>
+</section>
+<div class="detail-footer"><a class="interactive" href="../index.html#projects">← All projects</a><a class="interactive" href="https://github.com/mansonmyr/Automated-cytosolic-microtubule-using-object-detection-ML" target="_blank" rel="noreferrer">Open repository ↗</a></div>
+</main>
+</div>
+</body>
+</html>

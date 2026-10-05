@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Quick Immunofluorescence Image Line Profiler — Ooi Kai Hong project page.">
+<title>Quick Immunofluorescence Image Line Profiler — Ooi Kai Hong</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="site-shell">
+<header class="topbar" id="top">
+<a class="brand interactive" href="../index.html#top"><span class="brand-mark">OKH</span><span class="brand-name">Ooi Kai Hong</span></a>
+<nav class="nav"><a href="../index.html#about">About</a><a href="../index.html#experience">Experience</a><a href="../index.html#projects">Projects</a><a href="../index.html#research">Research</a><a href="../index.html#learning">Learning</a><a href="../index.html#contact">Contact</a></nav>
+<a class="topbar-cta interactive" href="https://www.linkedin.com/in/mk-990801" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+</header>
+<main class="project-page">
+<section class="detail-hero"><a class="back-link interactive" href="../index.html#projects">← Back to projects</a><div class="detail-kicker">Scientific software · 2026</div><h1>Quick Immunofluorescence Image Line Profiler</h1><p class="detail-lede">A browser-based TIFF line-intensity profiler for 2-, 3- and 4-channel immunofluorescence images, created to make calibrated fluorescence line measurements quicker and easier to inspect.</p><div class="detail-actions"><a class="btn btn-primary interactive" href="https://github.com/mansonmyr/Quick-IF-Line-Profiler" target="_blank" rel="noreferrer">GitHub ↗</a><a class="btn btn-secondary interactive" href="https://qilp.netlify.app" target="_blank" rel="noreferrer">Live demo ↗</a></div></section>
+<section class="detail-grid">
+<article class="detail-card"><h2>The problem</h2><p>Line-profile analysis is useful for comparing spatial signal, but manual workflows can be repetitive. This prototype puts ROI selection, calibration, peak measurements and export into one browser interface.</p></article>
+<article class="detail-card"><h2>My contribution</h2><p>I defined the analysis workflow around immunofluorescence use cases, built and documented the prototype with AI-assisted coding, and specified the metrics and interpretation logic used by the interface.</p></article>
+</section>
+<section class="flow-box"><div class="code-label">workflow()</div><div class="flow-row"><span>TIFF upload</span><i>→</i><span>Straight line ROI</span><i>→</i><span>Physical calibration</span><i>→</i><span>Channel sampling</span><i>→</i><span>Peak / FWHM / AUC analysis</span><i>→</i><span>CSV / JSON / TIFF export</span></div></section>
+<section class="detail-grid">
+<article class="detail-card"><h2>What the prototype supports</h2><ul><li>2–4 channel TIFF input</li><li>uint8 / uint16 image support</li><li>Physical pixel-size calibration</li><li>Optional rolling-ball background subtraction</li><li>Peak intensity and position</li><li>Detected peak count</li><li>FWHM measurements</li><li>AUC calculation</li><li>Quick metrics for multi-peak traces</li><li>CSV and JSON export</li></ul></article>
+<article class="detail-card"><h2>Implementation note</h2><p>The project is browser based and its implementation stack is documented in the repository README. The resume/site distinguishes the tool’s implementation from my current personal skill level.</p><div class="note-box">AI-assisted development is disclosed openly. The scientific problem definition, workflow design and research context are the parts of the project I personally own; implementation depth continues to develop alongside my Master of Artificial Intelligence.</div></article>
+</section>
+<div class="detail-footer"><a class="interactive" href="../index.html#projects">← All projects</a><a class="interactive" href="https://github.com/mansonmyr/Quick-IF-Line-Profiler" target="_blank" rel="noreferrer">Open repository ↗</a></div>
+</main>
+</div>
+</body>
+</html>

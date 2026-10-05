@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Semi-automated Microtubule Quantification with Fiji/ImageJ — Ooi Kai Hong project page.">
+<title>Semi-automated Microtubule Quantification with Fiji/ImageJ — Ooi Kai Hong</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="site-shell">
+<header class="topbar" id="top">
+<a class="brand interactive" href="../index.html#top"><span class="brand-mark">OKH</span><span class="brand-name">Ooi Kai Hong</span></a>
+<nav class="nav"><a href="../index.html#about">About</a><a href="../index.html#experience">Experience</a><a href="../index.html#projects">Projects</a><a href="../index.html#research">Research</a><a href="../index.html#learning">Learning</a><a href="../index.html#contact">Contact</a></nav>
+<a class="topbar-cta interactive" href="https://www.linkedin.com/in/mk-990801" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+</header>
+<main class="project-page">
+<section class="detail-hero"><a class="back-link interactive" href="../index.html#projects">← Back to projects</a><div class="detail-kicker">Image-analysis automation · 2026</div><h1>Semi-automated Microtubule Quantification with Fiji/ImageJ</h1><p class="detail-lede">A set of Fiji/ImageJ macros for semi-automated quantification of microtubule fluorescence intensity from immunofluorescence z-stacks, including centrosomal foci and mitotic spindle poles.</p><div class="detail-actions"><a class="btn btn-primary interactive" href="https://github.com/mansonmyr/Semi-automated-quantification-of-in-vivo-microtubule-intensity-using-Fiji-ImageJ-macros" target="_blank" rel="noreferrer">GitHub ↗</a></div></section>
+<section class="detail-grid">
+<article class="detail-card"><h2>The problem</h2><p>Microscopy quantification can involve repetitive preprocessing, detection and ROI placement. The macro workflow automates the repeatable parts while retaining a manual background-ROI adjustment step.</p></article>
+<article class="detail-card"><h2>My contribution</h2><p>I designed the analysis workflow from the microscopy experiment, translated the measurement logic into Fiji/ImageJ macros and documented the analysis sequence and interpretation choices.</p></article>
+</section>
+<section class="flow-box"><div class="code-label">workflow()</div><div class="flow-row"><span>z-stack</span><i>→</i><span>Sum projection</span><i>→</i><span>Adaptive median / Gaussian / mean filters</span><i>→</i><span>Find Maxima</span><i>→</i><span>ROI generation</span><i>→</i><span>Background correction</span><i>→</i><span>Intensity output</span></div></section>
+<section class="detail-grid">
+<article class="detail-card"><h2>What the prototype supports</h2><ul><li>Centrosomal microtubule intensity</li><li>Background-subtracted intensity</li><li>Spindle-pole γ-tubulin intensity</li><li>Spindle length from two detected poles</li><li>Spindle microtubule intensity</li><li>CSV-compatible outputs</li></ul></article>
+<article class="detail-card"><h2>Implementation note</h2><p>The implementation is Fiji/ImageJ macro-based, with an external adaptive-median-filter plugin used in the preprocessing step. The repository contains the macro workflow and examples.</p><div class="note-box">AI-assisted development is disclosed openly. The scientific problem definition, workflow design and research context are the parts of the project I personally own; implementation depth continues to develop alongside my Master of Artificial Intelligence.</div></article>
+</section>
+<div class="detail-footer"><a class="interactive" href="../index.html#projects">← All projects</a><a class="interactive" href="https://github.com/mansonmyr/Semi-automated-quantification-of-in-vivo-microtubule-intensity-using-Fiji-ImageJ-macros" target="_blank" rel="noreferrer">Open repository ↗</a></div>
+</main>
+</div>
+</body>
+</html>
